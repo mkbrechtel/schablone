@@ -1,4 +1,8 @@
-# iles-app
+# Schablone
+
+Base image for website building based on îles and tailwindCSS.
+
+## îles
 
 [îles]: https://github.com/ElMassimo/iles
 [configuration reference]: https://iles-docs.netlify.app/config
@@ -35,16 +39,4 @@ yarn dev
 
 ```sh
 yarn build
-```
-
-### Run Unit Tests with [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/introduction)
-
-```sh
-yarn test:unit # or `yarn test:unit:ci` for headless testing
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-yarn test:e2e # or `yarn test:e2e:ci` for headless testing
 ```
