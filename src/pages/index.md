@@ -2,6 +2,5 @@
 title: You did it!
 ---
 
-<main>
-  <Welcome/>
-</main>
+# hey
+ohai!
