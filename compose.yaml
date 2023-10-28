@@ -6,4 +6,7 @@ services:
       target: env
     ports:
       - "5173:5173"
-    command: isle dev
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: iles dev --host

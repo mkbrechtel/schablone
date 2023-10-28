@@ -7,4 +7,4 @@ RUN yarn install --frozen-lockfile
 
 FROM env AS dev
 COPY . .
-CMD isle dev
+CMD iles dev
