@@ -7,4 +7,8 @@ RUN yarn install --frozen-lockfile
 
 FROM env AS dev
 COPY . .
+ENV SITE_TITLE="Schablone"
+ENV SITE_DESCRIPTION="Opinionated static site generator image"
+
+
 CMD iles dev

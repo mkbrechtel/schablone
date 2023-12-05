@@ -10,3 +10,7 @@ services:
       - .:/app
     working_dir: /app
     command: iles dev --host
+    restart: always
+    environment:
+      SITE_TITLE: Schablone
+      SITE_DESCRIPTION: Opinionated static site generator image

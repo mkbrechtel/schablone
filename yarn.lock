@@ -171,6 +171,14 @@
   dependencies:
     "@islands/hydration" "^0.8.0"
 
+"@islands/prism@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@islands/prism/-/prism-0.8.0.tgz#f5a6a4e631f64d599821ed10e835671e4d16d652"
+  integrity sha512-Ua3mzLadCDTjlrfRP3qlXHHlRnymBoC1DXOhAkp7fnil31fD3Gu36gEWoLtZOAONMS3uenLCgjfyXE3NtQ4ytA==
+  dependencies:
+    prismjs "^1.25.0"
+    unist-util-visit "^4.1.0"
+
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
@@ -2368,6 +2376,11 @@ postcss@^8.4.23, postcss@^8.4.27, postcss@^8.4.31:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+prismjs@^1.25.0:
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.29.0.tgz#f113555a8fa9b57c35e637bba27509dcf802dd12"
+  integrity sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==
 
 property-information@^6.0.0:
   version "6.3.0"

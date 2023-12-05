@@ -12,6 +12,7 @@
     "node": "^14.18 || >= 16.0.0"
   },
   "devDependencies": {
+    "@islands/prism": "^0.8.0",
     "@sveltejs/vite-plugin-svelte": "^2.0.4",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
